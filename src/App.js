@@ -3,6 +3,8 @@ import './styles/line_loader.css'
 import React, { useState, useEffect } from 'react';
 import { LoadingPage} from './components/LoadingPage';
 import { SearchPage} from './components/SearchPage';
+import './styles/search-page.css';
+import './styles/loading_ring.css';
 
 
 function App() {
