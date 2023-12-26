@@ -82,8 +82,8 @@ export function SearchPage(){
 
     for(let word of definitions){
 
-      let definitionElement= createHElement();
-      let exampleElement = createPElement();
+      let definitionElement= createPElement();
+      let exampleElement = createHElement();
 
       
       definitionElement.innerHTML = `Definition ${counter}: ${word.definition}`;
@@ -123,8 +123,8 @@ export function SearchPage(){
 
   
   function backToDefault(){
-    document.getElementById('error-display').innerHTML = " "; 
-    document.getElementById('user-input').value = "";
+    document.getElementById('error-display').innerHTML = ""; 
+    // document.getElementById('user-input').value = "";
   }
 
   function showRing(){
@@ -142,10 +142,10 @@ export function SearchPage(){
       <div className="search-area">
         <p id='error-display'></p>
         <div className='search-line'>
-          <input placeholder="Enter word ..." className="user-input" id="user-input"/>
+          <input placeholder="Enter word..." className="user-input" id="user-input"/>
           <button onClick={getMeaning}><img src={searchLogo} alt='search logo'/></button>
         </div>
-        <LoadingRing/>
+          <LoadingRing/>
 
         <div className='result' id='result'>
 

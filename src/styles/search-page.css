@@ -2,14 +2,14 @@
 
 .search-area{
   background-color: #b6cde0;
-  min-height: 90vh;
+  min-height: 77vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(14, 13, 13);
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
 }
 
 #error-display{
@@ -20,9 +20,9 @@
 
 .app-name{
   display: flex;
-  color: black;
+  color: rgb(44, 44, 44);
   align-content: center;
-  font-size: large;
+  font-size: 40px;
 }
 
 .search-line{
@@ -55,11 +55,12 @@
   align-items: center;
   
 }
+
 .result > div{
   display: flex;
   flex-direction: column;
   border: none;
-  background-color: aliceblue;
+  background-color: rgb(248, 250, 252);
   border-radius: 10px;
   box-shadow: 0px 16px 48px 0px rgba(0, 0, 0, 0.176);
   padding: 30px;

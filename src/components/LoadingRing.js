@@ -2,7 +2,7 @@
 
 function LoadingRing(){
   return (
-    <div className="ring" id='ring'>Loading
+    <div className="ring" id='ring'>
       <span></span>
     </div>
   )
