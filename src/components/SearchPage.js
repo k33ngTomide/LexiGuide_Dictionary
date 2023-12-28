@@ -6,7 +6,7 @@ export function SearchPage(){
 
   function getMeaning(){
     
-    let word = document.getElementById('user-input').value;
+    let word = document.getElementById('user-input').value.trim();
     if(!word){
       document.getElementById('error-display').innerHTML = "Word cannot be empty";
       return
